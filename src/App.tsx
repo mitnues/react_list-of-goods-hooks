@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 import './App.scss';
+import * as exp from 'constants';
 
 export const goodsFromServer = [
   'Dumplings',
@@ -49,3 +50,5 @@ export const App: React.FC = () => {
     </div>
   );
 };
+console.log("Fim de Linha:", exp);
+//export default App;
