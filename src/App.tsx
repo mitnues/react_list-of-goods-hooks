@@ -130,8 +130,7 @@ export const App: React.FC = () => {
             className="subtitle is-6 has-text-weight-semibold 
           mb-4 border-b pb-2 text-gray-700"
           >
-            (
-            <span className="has-text-info">{goods.length}</span> )
+            (<span className="has-text-info">{goods.length}</span> )
           </p>
 
           <ul className="divide-y divide-gray-200">
